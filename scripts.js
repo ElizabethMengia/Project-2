@@ -1,0 +1,28 @@
+// Interactivity demo 2
+
+console.log('hello')
+
+
+//zoom the alien
+
+var body = document.querySelector('body')
+var button = document.querySelector('.trigger')
+
+button.addEventListener('click', zoom)
+
+function zoom(){ 
+	
+if (body.id == 'zoom' ){
+	body.id=''
+}
+
+else{
+	body.id ='zoom'
+
+}
+
+}
+
+
+
+
